@@ -38,7 +38,8 @@ fun main(){
         it.add(4)
         println("The list elements after adding new one: $it")
     }
-    //let -to avoid null pointer exception-return lambda value , refer to context object by it
+    //let -to avoid null pointer exception-return lambda value
+    // refer to context object by it
   val data : String? = null
     //val data1=
     data?.let{
